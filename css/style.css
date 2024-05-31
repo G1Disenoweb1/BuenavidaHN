@@ -70,8 +70,21 @@ header a{
 }
 #hero img{
 	border-radius: 24px;
-	
 }
+
+.boton-ver-mas{
+	color: #fff;
+	background-color: var(--color-verde-oscuro);
+	text-decoration: none;
+	padding: 2% 5%;
+	border-radius: 50px;
+}
+
+.boton-ver-mas:hover{
+	color: var(--color-verde-oscuro);
+	background-color: var(--color-amarillo);
+}
+
 #horarios{
 	color: var(--color-gris);
 	text-align: center;
@@ -79,6 +92,11 @@ header a{
 }
 #horarios .parrafo-horario{
 	margin-bottom: 0px !important;
+}
+
+#horarios h2{
+	font-size: 45px;
+	font-weight: 600;
 }
 
 #hero .centrado{
@@ -145,7 +163,11 @@ footer .logo-redondo{
 }
 
 #hero-nosotros{
-	margin: 4% 0;
+	/*margin: 4% 0;*/
+	background-image: url("../img/fondo-nosotros.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 5% 0;
 }
 
 #hero-nosotros .glass-sections{
@@ -159,4 +181,15 @@ footer .logo-redondo{
 
 #hero-nosotros img{
 	border-radius: 30px;
+}
+
+#hero-ubicacion{
+	background-image: url("../img/fondo-ubicacion.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 5% 0;
+}
+
+#hero-ubicacion .glass-sections{
+	padding: 2%;
 }
