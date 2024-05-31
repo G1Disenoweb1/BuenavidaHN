@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+:root{
+	--color-verde-claro: #98A800;
+	--color-verde-oscuro: #638118;
+	--color-amarillo: #D2CC63;
+	--color-cafe: #3B321F;
+	--color-gris: #707070;
+}
+
+body{
+	font-family: 'Montserrat';
+	font-size: 27px;
+	color: #FFFFFF;
+	background-image: url("../img/fondo-hero.png");
+	background-position: top center;
+}
+header{
+	background-color: #FFFFFF;
+	padding: 1%;
+	font-size: 30px;
+	text-align: center;
+}
+.logo-redondo{
+	border-radius: 50px;
+}
+
+nav img{
+	height: 85px;
+}
+
+.bg-light{
+	background-color: #fff !important;
+}
+
+.carrito-icono{
+	color: var(--color-verde-oscuro);
+	font-size: 46px;
+}
+header a{
+	text-decoration: none;
+	color: var(--color-verde-claro);
+}
+
+#hero{
+	padding: 6% 0px;
+	
+}
+
+#hero h1{
+	padding: 1%;
+	color: var(--color-cafe);
+	font-size: 40px;
+	text-align: center;
+
+}
+#hero p{
+	text-align: center;
+	padding: 0% 1%;
+}
+
+#hero h3{
+	text-align: center;
+	
+}
+#hero img{
+	border-radius: 24px;
+	
+}
+#horarios{
+	color: var(--color-gris);
+	text-align: center;
+	padding: 2% 2%;
+}
+#horarios .parrafo-horario{
+	margin-bottom: 0px !important;
+}
+
+footer{
+	background-color: var(--color-verde-oscuro);
+	padding: 4% 0%;
+	color: var(--color-amarillo);
+	text-align: center;
+}
+footer .logo-redondo{
+	border-radius: 50px;
+}
+#hero .glass1{
+	background: rgba(255, 255, 255, 0.61);
+	border-radius: 50px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+	padding: 2%;
+}
+#hero .glass2{
+	background: rgba(255, 255, 255, 0.12);
+	border-radius: 40px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+	padding-bottom: 2%;
+}
+.glass3{
+	background: rgba(255, 255, 255, 0.78);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.3px);
+	-webkit-backdrop-filter: blur(8.3px);
+}
+#horarios{
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.linea{
+    border-right: solid 2px var(--color-verde-claro);
+}
+
+#hero-nosotros{
+	margin: 4% 0;
+}
+
+.glass-nosotros{
+	background: rgba(255, 255, 255, 0.61);
+	border-radius: 50px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+	padding: 2%;
+}
+
+.centrado{
+	margin-top: 4%;
+	padding: 0 5%;
+}
+
+#hero-nosotros img{
+	border-radius: 30px;
+}
+
+
+.glass-ubicacion{
+	background: rgba(255, 255, 255, 0.61);
+	border-radius: 50px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+	padding: 2%;
+}
