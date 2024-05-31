@@ -10,7 +10,7 @@
 
 body{
 	font-family: 'Montserrat';
-	font-size: 27px;
+	font-size: 25px;
 	color: #FFFFFF;
 	background-image: url("../img/fondo-hero.png");
 	background-position: top center;
@@ -37,6 +37,11 @@ nav img{
 	color: var(--color-verde-oscuro);
 	font-size: 46px;
 }
+
+.carrito-icono:hover{
+	color: var(--color-cafe);
+}
+
 header a{
 	text-decoration: none;
 	color: var(--color-verde-claro);
@@ -76,15 +81,39 @@ header a{
 	margin-bottom: 0px !important;
 }
 
+#hero .centrado{
+	padding: 0 6%;
+}
+
 footer{
 	background-color: var(--color-verde-oscuro);
 	padding: 4% 0%;
 	color: var(--color-amarillo);
 	text-align: center;
 }
+
+footer i{
+	color: var(--color-amarillo);
+	font-size: 50px;
+}
+
+footer i:hover{
+	color: var(--color-cafe);
+}
+
 footer .logo-redondo{
 	border-radius: 50px;
 }
+
+.terminos{
+	color: var(--color-amarillo);
+	text-decoration: none;
+}
+
+.terminos:hover{
+	color: var(--color-cafe);
+}
+
 #hero .glass1{
 	background: rgba(255, 255, 255, 0.61);
 	border-radius: 50px;
@@ -93,7 +122,7 @@ footer .logo-redondo{
 	-webkit-backdrop-filter: blur(6.6px);
 	padding: 2%;
 }
-#hero .glass2{
+.glass-sections{
 	background: rgba(255, 255, 255, 0.12);
 	border-radius: 40px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -119,30 +148,15 @@ footer .logo-redondo{
 	margin: 4% 0;
 }
 
-.glass-nosotros{
-	background: rgba(255, 255, 255, 0.61);
-	border-radius: 50px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(6.6px);
-	-webkit-backdrop-filter: blur(6.6px);
+#hero-nosotros .glass-sections{
 	padding: 2%;
 }
 
 .centrado{
 	margin-top: 4%;
-	padding: 0 5%;
+	padding: 0 15%;
 }
 
 #hero-nosotros img{
 	border-radius: 30px;
-}
-
-
-.glass-ubicacion{
-	background: rgba(255, 255, 255, 0.61);
-	border-radius: 50px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(6.6px);
-	-webkit-backdrop-filter: blur(6.6px);
-	padding: 2%;
 }
