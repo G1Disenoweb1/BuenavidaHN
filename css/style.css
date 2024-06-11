@@ -301,3 +301,122 @@ footer .logo-redondo{
 	border: 1px solid var(--color-gris);
 	height: 85%;
 }
+
+#hero-menu{
+	background-image: url("../img/fondo-menu.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 5% 2%;
+}
+
+#hero-menu .glass-sections{
+	background: rgba(255, 255, 255, 0.30);
+	padding: 4%;
+}
+
+#hero-menu img{
+	border-radius: 30px;
+}
+
+#hero-menu .carousel .carousel-item {
+  	height: 600px;
+}
+
+.caja{
+	position: absolute;
+	overflow: hidden;
+}
+
+.cintillo{
+	position: relative;
+	top: 50%;
+	background-color: rgba(0,0,0,0.62);
+	padding: 2% 10%;
+}
+
+#hero-carrito{
+	background-image: url("../img/fondo-carrito.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 5% 2%;
+}
+
+#hero-carrito .fondo-amarillo{
+	border: 2px solid var(--color-verde-oscuro);
+}
+
+.boton-carrito{
+	background-color: var(--color-cebolla);
+	border: 2px solid var(--color-verde-oscuro);
+	padding: 2% 5%;
+	font-size: 16px;
+	border-radius: 50px;
+	text-decoration: none;
+	color: var(--color-verde-oscuro);
+	display: block;
+	margin: auto;
+}
+
+#hero-carrito h2{
+	color: #707070;
+	font-size: 14px;
+	text-align: center;
+}
+
+#hero-carrito img{
+	border-radius: 30px;
+	border: 1px solid #707070;
+}
+
+.nombre-plato{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#hero-carrito p{
+	color: #707070; 
+}
+
+.boton-cantidad{
+	background-color: var(--color-cebolla);
+	border: 2px solid var(--color-verde-oscuro);
+}
+
+#hero-carrito i{
+	color: var(--color-verde-oscuro);
+}
+
+#hero-carrito h3{
+	color: #707070;
+	text-align: center;
+	font-size: 20px;
+}
+
+#hero-carrito textarea{
+	border-radius: 30px;
+	border: 2px solid var(--color-verde-oscuro);
+}
+
+#hero-carrito .pago{
+	font-size: 24px;
+	text-align: center;
+}
+
+#hero-carrito .pago .boton-carrito{
+	width: 60%;
+}
+
+#hero-carrito .linea-inferior{
+	padding-bottom: 0;
+}
+
+#hero-politicas{
+	background-image: url("../img/fondo-politicas.jpg");
+	background-position: center top;
+	background-size: cover;
+	padding: 7% 2%;
+}
+
+#hero-politicas .glass-sections{
+	padding: 4%;
+}
