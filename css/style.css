@@ -30,7 +30,7 @@ nav img{
 	height: 85px;
 }
 
-.bg-light{
+bg-light{
 	background-color: #fff !important;
 }
 
@@ -188,6 +188,10 @@ footer .logo-redondo{
 	background-size: cover;
 	background-position: top center;
 	padding: 5% 0;
+}
+
+#hero-ubicacion img{
+	border-radius: 20px;
 }
 
 #hero-ubicacion .glass-sections{
@@ -419,4 +423,97 @@ footer .logo-redondo{
 
 #hero-politicas .glass-sections{
 	padding: 4%;
+}
+
+@media (max-width:600px){
+	#hero h1{
+		font-size: 25px;
+	}
+	
+	#hero p, #horarios p{
+		font-size: 18px;
+	}
+	
+	#hero img{
+		display: block;
+		margin: auto;
+	}
+	
+	#hero .decorativa{
+		height: 30%;
+	}
+	
+	#horarios h2{
+		font-size: 22px;
+	}
+	
+	#hero h3{
+		font-size: 22px;
+	}
+	
+	footer p{
+		font-size: 18px;
+	}
+	
+	.boton-ver-mas {
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	#hero-contacto input, #hero-contacto textarea {
+		margin-bottom: 5%;
+	}
+	
+	#hero-sliders h1 {
+		font-size: 25px;
+	}
+	
+	#hero-sliders h2 {
+		font-weight: 400;
+		font-size: 22px;
+	}
+	
+	.offset-2 {
+		margin-left: 0;
+	}
+	
+	#ordenar{
+		text-align: center;
+	}
+	
+	.boton-2 {
+		margin-bottom: 5%;
+	}
+	
+	.nosotros-logo{
+		width: 70%;
+		margin: 5%;
+	}
+	
+	#hero-nosotros h3{
+		font-size: 25px;
+	}
+	
+	#hero-nosotros p{
+		font-size: 18px;
+	}
+	
+	#hero-ubicacion p{
+		font-size: 18px;
+	}
+	
+	#hero-menu h1{
+		font-size: 25px;
+		padding-right: 10%;
+	}
+	
+	#hero-politicas h1{
+		font-size: 25px;
+	}
+	
+	#hero-politicas p{
+		font-size: 18px;
+	}
+	
+	
 }
